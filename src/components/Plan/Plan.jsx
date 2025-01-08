@@ -4,7 +4,9 @@ function Plan() {
 return (
 <form action="">
             <label htmlFor=""> Add to your calender</label>
-            <input type="text" />
+            <input 
+            type="text"
+             />
             <button>Add</button>
 </form>
 )
