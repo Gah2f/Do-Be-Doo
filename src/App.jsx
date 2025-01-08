@@ -6,6 +6,8 @@ import Home from './components/Home/Home'
 import Footer from './components/Footer/Footer'
 import {Routes, Route} from 'react-router-dom'
 import Plan from './components/Plan/Plan'
+import Log from './components/Log/Log'
+
 function App() {
   return (
     <div>
@@ -14,7 +16,7 @@ function App() {
         <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/plan' element={<Plan/>}/>
-            <Route path='/plan' element={<Plan/>}/>
+            <Route path='/login' element={<Log/>}/>
         </Routes>
         <Footer/>
     </div>
