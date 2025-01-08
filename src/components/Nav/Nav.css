@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    background-color: #F3C34D;
+    justify-content: flex-end; 
+}
+.nav a{
+    text-decoration: none;
+    margin-left: 40px;
+}
+.nav a:hover{
+    color: #A56F46;
+}
