@@ -8,6 +8,7 @@ import {Routes, Route} from 'react-router-dom'
 import Plan from './components/Plan/Plan'
 import Log from './components/Log/Log'
 import Tasks from './components/Tasks/Tasks'
+import Dooweekly from './components/DooWeekly/Dooweekly'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path='/plan' element={<Plan/>}/>
             <Route path='/tasks' element={<Tasks/>}/>
             <Route path='/login' element={<Log/>}/>
+            <Route path='/weekly' element={<Dooweekly/>}/>
         </Routes>
         <Footer/>
     </div>
